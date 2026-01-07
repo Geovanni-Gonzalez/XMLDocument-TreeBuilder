@@ -1,0 +1,31 @@
+{
+    "project": "XML Document Tree-Builder",
+    "tech": [
+        "C++98",
+        "Splay Trees",
+        "Custom Data Structures",
+        "XML Path Serialization"
+    ],
+    "features": [
+        "Splay Tree-based Node Search Indexing",
+        "Advanced Attribute & Content Editing (4 Modes)",
+        "Zero-Dependency Implementation (No-STL)",
+        "Hierarchical ASCII & Well-formed XML Visualization",
+        "Recursive Memory Management System"
+    ],
+    "stack": {
+        "language": "C++98",
+        "framework": "Native Header-only Library",
+        "tools": [
+            "GCC",
+            "Custom StringLib",
+            "Custom LinkedList"
+        ],
+        "database": "File System Persistence"
+    },
+    "screenshots": [],
+    "description": {
+        "es": "Librería pura en C++ para la orquestación de documentos XML utilizando árboles Splay para búsquedas ultrarrápidas y una gestión de memoria manual optimizada.",
+        "en": "Pure C++ library for XML document orchestration using Splay trees for ultra-fast searches and optimized manual memory management."
+    }
+}
