@@ -1,31 +1,54 @@
 {
-    "project": "XML Document Tree-Builder",
-    "tech": [
-        "C++98",
-        "Splay Trees",
-        "Custom Data Structures",
-        "XML Path Serialization"
-    ],
-    "features": [
-        "Splay Tree-based Node Search Indexing",
-        "Advanced Attribute & Content Editing (4 Modes)",
-        "Zero-Dependency Implementation (No-STL)",
-        "Hierarchical ASCII & Well-formed XML Visualization",
-        "Recursive Memory Management System"
-    ],
-    "stack": {
-        "language": "C++98",
-        "framework": "Native Header-only Library",
-        "tools": [
-            "GCC",
-            "Custom StringLib",
-            "Custom LinkedList"
+    "en": {
+        "tech": [
+            "C++98",
+            "Splay Trees",
+            "Custom Data Structures",
+            "TUI Design"
         ],
-        "database": "File System Persistence"
+        "features": [
+            "Splay Tree indexing for O(log n) node selection",
+            "Advanced attribute and content editing (4 modes)",
+            "Manual memory management without STL dependencies",
+            "Well-formed XML export and ASCII tree visualization",
+            "Windows Console UTF-8 support and ANSI styling"
+        ],
+        "stack": {
+            "language": "C++",
+            "framework": "Native C++98",
+            "tools": [
+                "GCC",
+                "Custom StringLib"
+            ],
+            "database": "File Persistence"
+        },
+        "screenshots": [],
+        "description": "A high-performance C++ engine designed for programmatic XML document construction. It leverages custom-built data structures, including a Splay Tree index for nearly instantaneous node selection, while strictly adhering to legacy standards by avoiding STL and C-string headers. The library features a premium terminal interface with UTF-8 support, making it a robust tool for developers needing lightweight yet powerful document orchestration in restricted environments."
     },
-    "screenshots": [],
-    "description": {
-        "es": "Librería pura en C++ para la orquestación de documentos XML utilizando árboles Splay para búsquedas ultrarrápidas y una gestión de memoria manual optimizada.",
-        "en": "Pure C++ library for XML document orchestration using Splay trees for ultra-fast searches and optimized manual memory management."
+    "es": {
+        "tech": [
+            "C++98",
+            "Splay Trees",
+            "Estructuras de Datos Personalizadas",
+            "Diseño TUI"
+        ],
+        "features": [
+            "Indexación mediante Splay Tree para selección en O(log n)",
+            "Edición avanzada de atributos y contenido (4 modos)",
+            "Gestión manual de memoria sin dependencia de STL",
+            "Exportación XML bien formada y visualización ASCII",
+            "Soporte UTF-8 y estilos ANSI en consola Windows"
+        ],
+        "stack": {
+            "language": "C++",
+            "framework": "C++98 Nativo",
+            "tools": [
+                "GCC",
+                "StringLib Personalizada"
+            ],
+            "database": "Persistencia de Archivos"
+        },
+        "screenshots": [],
+        "description": "Un motor de C++ de alto rendimiento diseñado para la construcción programática de documentos XML. Utiliza estructuras de datos desarrolladas a medida, incluyendo un índice Splay Tree para la selección casi instantánea de nodos, manteniendo una adherencia estricta a estándares heredados al evitar el uso de STL y cabeceras de cadenas de C. La librería integra una interfaz de terminal premium con soporte UTF-8, convirtiéndola en una herramienta robusta para desarrolladores que requieren una orquestación de documentos potente pero ligera en entornos restringidos."
     }
 }
