@@ -1,32 +1,71 @@
-# XMLDocument-TreeBuilder 🏗️
+﻿# XMLDocument TreeBuilder
 
-Librería de alto rendimiento en C++ (C++98) diseñada para la creación, manipulación y exportación de documentos XML bien formados.
+## Descripción
+Proyecto C++ para representar documentos XML como árbol de nodos usando listas enlazadas y utilidades propias.
 
-## 🌟 Características Destacadas
+## Objetivo
+Practicar estructuras dinámicas, árboles y documentos jerarquicos.
 
-- **Motor Splay Tree**: Búsqueda de nodos indexada y optimizada mediante balanceo biselado.
-- **Sin Dependencias**: Implementación propia de `StringLib` (gestión de C-Strings) y `LinkedList` dinámicas.
-- **Edición Versátil**: Modos de edición avanzada para atributos y contenido (ADD, APD, OVR, DEL).
-- **Exportación Técnica**: Generación de XML indentado y vistas de árbol jerárquicas ASCII.
+## Tecnologías utilizadas
+- C++
+- Árboles
+- Listas enlazadas
+- POO
 
-## 🛠️ Requisitos Técnico
+## Funcionalidades principales
+- XMLDocument
+- XMLNode
+- LinkedList propia
+- StringLib auxiliar
+- main.cpp demo
 
-- **Estándar**: C++98.
-- **Compatibilidad**: Debian 10+ (GCC), Borland C++.
-- **Memoria**: Gestión dinámica manual (No STL).
+## Mi rol
+Implementé estructuras principales para construir y manipular XML en memoria.
 
-## 🚀 Inicio Rápido
+## Aprendizajes clave
+- Jerarquias
+- Listas enlazadas
+- Composicion de clases
+- Memoria dinámica
 
-Compilación de la librería con el driver de prueba:
-
+## Instalación y ejecución
 ```bash
+cd XMLDocument-TreeBuilder
 g++ main.cpp -o xml_builder.exe
 ./xml_builder.exe
 ```
 
-## 📂 Archivos Principales
+## Estructura del proyecto
+- XMLDocument.hpp/XMLNode.hpp: modelo
+- LinkedList.hpp: lista
+- StringLib.hpp/utils.h: apoyo
+- main.cpp: demo
 
-- `XMLDocument.hpp`: Controlador principal y lógica Splay.
-- `XMLNode.hpp`: Estructuras de datos de nodos y atributos.
-- `StringLib.hpp`: Utilidades de cadena personalizadas.
-- `LinkedList.hpp`: Listas enlazadas dinámicas.
+## Capturas o demo
+![Captura principal](screenshots/principalImage.png)
+
+## Estado del proyecto
+Proyecto académico funcional.
+
+## Valor técnico demostrado
+Demuestra estructuras de datos en C++ y representación jerarquica sin librerías externas.
+
+## Mejoras futuras
+- Agregar parser XML
+- Serializar a XML
+- Pruebas unitarias
+
+## Autor
+Geovanni González  
+Estudiante de Ingeniería en Computación  
+GitHub: [Geovanni-Gonzalez](https://github.com/Geovanni-Gonzalez)
+
+
+
+
+
+
+
+
+
+
