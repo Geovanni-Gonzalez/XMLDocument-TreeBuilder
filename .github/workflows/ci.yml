@@ -8,11 +8,14 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Set up MSVC
+        uses: ilammy/msvc-dev-cmd@v1
+
       - name: Build
-        run: g++ -std=c++17 -Wall -Wextra main.cpp -o xml_builder
+        run: cl /EHsc /W4 main.cpp /Fe:xml_builder.exe
