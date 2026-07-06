@@ -1,5 +1,7 @@
 ﻿# XMLDocument TreeBuilder
 
+[![CI](https://github.com/Geovanni-Gonzalez/XMLDocument-TreeBuilder/actions/workflows/ci.yml/badge.svg)](https://github.com/Geovanni-Gonzalez/XMLDocument-TreeBuilder/actions/workflows/ci.yml)
+
 ## Descripción
 Proyecto C++ para representar documentos XML como árbol de nodos usando listas enlazadas y utilidades propias.
 
