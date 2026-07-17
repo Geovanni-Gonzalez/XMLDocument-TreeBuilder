@@ -3,7 +3,7 @@
 [![CI](https://github.com/Geovanni-Gonzalez/XMLDocument-TreeBuilder/actions/workflows/ci.yml/badge.svg)](https://github.com/Geovanni-Gonzalez/XMLDocument-TreeBuilder/actions/workflows/ci.yml)
 
 ## Descripción
-Proyecto C++ para representar documentos XML como árbol de nodos usando listas enlazadas y utilidades propias.
+Librería C++ header-only para construir documentos XML bien formados en memoria: árbol de nodos con atributos, edición en 4 modos (agregar/adjuntar/sobreescribir/borrar), serialización indentada y un **árbol splay implementado desde cero** (rotaciones y splaying con puntero a padre) para búsqueda de nodos por id. Sin `std::string`: incluye una librería propia de C-strings (`StringLib.hpp`).
 
 ## Objetivo
 Practicar estructuras dinámicas, árboles y documentos jerarquicos.
@@ -44,7 +44,7 @@ g++ main.cpp -o xml_builder.exe
 - main.cpp: demo
 
 ## Capturas o demo
-![Captura principal](screenshots/principalImage.png)
+![Captura principal](docs/img/principalImage.png)
 
 ## Estado del proyecto
 Proyecto académico funcional.
